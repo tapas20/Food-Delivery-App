@@ -2,15 +2,17 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
-  background-color: rgb(241, 241, 233);
+  background-color: rgba(242, 118, 118, 0.255);
+  border-radius: 5px;
 }
 
 .logo {
+  margin-top: 5px;
   width: 90px;
 }
 
 .nav-items {
-    padding: 0 20px 0;
+  padding: 0 20px 0;
 }
 
 .nav-items > ul {
@@ -23,4 +25,71 @@
   padding: 10px;
   margin: 10px;
   cursor: pointer;
+}
+
+.res-card {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 15px;
+}
+
+.res-logo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.brand-name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.res-des {
+  font-size: 15px;
+}
+
+.cuisine {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.rating {
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.time{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-weight: 50;
+}
+
+.body {
+  background-color: rgba(247, 243, 243, 0.931);
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 100px;
+}
+
+.search {
+  margin-top: -50px;
+  margin-bottom: 25px;
 }
