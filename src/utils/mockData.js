@@ -1,3 +1,4 @@
+// RestaurantList is JSON Data for displaying cards
 const restaurantList = [
   {
     type: "restaurant",
@@ -9,8 +10,7 @@ const restaurantList = [
       city: "21",
       area: "Athwa",
       totalRatingsString: "1000+ ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.RWaaZCnAJwE8O0FxwD7y0AAAAA?rs=1&pid=ImgDetMain",
+      cloudinaryImageId: "bz9zkh2aqywjhpankb07",
       cuisines: ["Pizzas"],
       tags: [],
       costForTwo: 40000,
@@ -130,7 +130,7 @@ const restaurantList = [
       city: "21",
       area: "althan bhatar",
       totalRatingsString: "100+ ratings",
-      cloudinaryImageId: "https://wallpapercave.com/wp/wp7783423.jpg",
+      cloudinaryImageId: "ldtibwymvzehvmdwl8la",
       cuisines: ["Desserts", "Ice Cream", "Healthy Food"],
       tags: [],
       costForTwo: 20000,
@@ -250,8 +250,7 @@ const restaurantList = [
       city: "21",
       area: "Athwa",
       totalRatingsString: "500+ ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.dS7Bndjs45mE_rf8o4n2mwHaEo?w=640&h=400&rs=1&pid=ImgDetMain",
+      cloudinaryImageId: "nyp7yrzwc1dc2xqfkydk",
       cuisines: ["Ice Cream"],
       tags: [],
       costForTwo: 25000,
@@ -371,8 +370,7 @@ const restaurantList = [
       city: "21",
       area: "Nanpura",
       totalRatingsString: "100+ ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.uPfR80ZGN9NGSkJagQMD5QHaFj?w=679&h=509&rs=1&pid=ImgDetMain",
+      cloudinaryImageId: "spd3y5gok3vvwqulgmda",
       cuisines: ["Ice Cream", "Juices", "Desserts", "Beverages"],
       tags: [],
       costForTwo: 20000,
@@ -492,8 +490,7 @@ const restaurantList = [
       city: "21",
       area: "Nanpura",
       totalRatingsString: "50+ ratings",
-      cloudinaryImageId:
-        "https://theawesomedaily.com/wp-content/uploads/2016/09/pictures-of-pizza-23-1.jpg",
+      cloudinaryImageId: "bvr70adr30ejyr5ua79k",
       cuisines: ["Pizzas"],
       tags: [],
       costForTwo: 30000,
@@ -613,8 +610,7 @@ const restaurantList = [
       city: "21",
       area: "Athwa",
       totalRatingsString: "1000+ ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.Q4f5lR46RdwAqe9hXJ7dlAHaF7?rs=1&pid=ImgDetMain",
+      cloudinaryImageId: "oxsb5mr1xsmhnxhunjsc",
       cuisines: ["Chinese", "North Indian", "Biryani"],
       tags: [],
       costForTwo: 2000,
@@ -734,8 +730,7 @@ const restaurantList = [
       city: "21",
       area: "Adajan",
       totalRatingsString: "20+ ratings",
-      cloudinaryImageId:
-        "https://www.verywellfit.com/thmb/BltMJvjHmvrJjkMM0eATRF0aSX8=/3264x2448/filters:fill(FFDB5D,1)/high-angle-view-of-various-snacks-in-bowls-549971471-5845999c3df78c0230ef45dc.jpg",
+      cloudinaryImageId: "agkm7cflq72tkualhstb",
       cuisines: ["Fast Food", "Pizzas", "Snacks", "Beverages"],
       tags: [],
       costForTwo: 20000,
@@ -854,8 +849,7 @@ const restaurantList = [
       city: "21",
       area: "Piplod",
       totalRatingsString: "Too Few Ratings",
-      cloudinaryImageId:
-        "https://3.bp.blogspot.com/-eJynUjDjb5k/U-0YmCYiwBI/AAAAAAAATTs/KfSKnd3xCRc/w1200-h630-p-k-no-nu/creamsicle-image.jpg",
+      cloudinaryImageId: "jegpumsjcmomksbr2sxr",
       cuisines: ["Desserts", "Ice Cream"],
       tags: [],
       costForTwo: 15000,
@@ -975,8 +969,7 @@ const restaurantList = [
       city: "21",
       area: "Piplod",
       totalRatingsString: "100+ ratings",
-      cloudinaryImageId:
-        "https://static.skipthedishes.com/c1c31b68-a2f9-47b4-b792-98af79f56c7a-item-image-1533767012097.",
+      cloudinaryImageId: "wzbo5xivr8hstl0vxzcm",
       cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
       tags: [],
       costForTwo: 50000,
@@ -1097,9 +1090,17 @@ const restaurantList = [
       city: "21",
       area: "Adajan Patiya",
       totalRatingsString: "1000+ ratings",
-      cloudinaryImageId:
-        "https://orikaflavours.com/cdn/shop/articles/lndscpe.jpg?v=1695577046",
-      cuisines: ["Biryani", "Mughlai", "Lucknowi"],
+      cloudinaryImageId: "craozjakzx7sll2uracb",
+      cuisines: [
+        "Biryani",
+        "Mughlai",
+        "Lucknowi",
+        "Hyderabadi",
+        "Kebabs",
+        "North Indian",
+        "Persian",
+        "Desserts",
+      ],
       tags: [],
       costForTwo: 50000,
       costForTwoString: "₹500 FOR TWO",
@@ -1218,8 +1219,7 @@ const restaurantList = [
       city: "21",
       area: "Piplod",
       totalRatingsString: "Too Few Ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/R.38cfd8403144119e8d3e3d176a963016?rik=aIKV8RSzKHPIKw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fDesktop-Food-HD-Wallpapers-Free-Download.jpg&ehk=szmS7%2bieRDd4VVw82%2fkxoSha9HiVHqUNAZr02wqxugc%3d&risl=1&pid=ImgRaw&r=0",
+      cloudinaryImageId: "vmold2zualdrrypxcvue",
       cuisines: ["Fast Food"],
       tags: [],
       costForTwo: 20000,
@@ -1339,8 +1339,7 @@ const restaurantList = [
       city: "21",
       area: "Chowk Bazar",
       totalRatingsString: "5000+ ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.iydKkwiqSiKvtTLuhZvwcQHaGL?rs=1&pid=ImgDetMain",
+      cloudinaryImageId: "kilrdjqt8chduasii5ni",
       cuisines: ["North Indian", "Biryani"],
       tags: [],
       costForTwo: 30000,
@@ -1460,7 +1459,7 @@ const restaurantList = [
       city: "21",
       area: "Adajan",
       totalRatingsString: "10000+ ratings",
-      cloudinaryImageId: "https://wallpapercave.com/wp/nN83CjZ.jpg",
+      cloudinaryImageId: "84d3bea985f13bd980dc39c9c73bc87f",
       cuisines: ["Desserts", "Chinese", "South Indian", "Ice Cream", "Pizzas"],
       tags: [],
       costForTwo: 25000,
@@ -1580,8 +1579,7 @@ const restaurantList = [
       city: "21",
       area: "Galaxy Circle",
       totalRatingsString: "50+ ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.UQelnFFX7vihRqgND4YzUQHaGV?rs=1&pid=ImgDetMain",
+      cloudinaryImageId: "mnvfpsoealkflze4e5qi",
       cuisines: ["Bakery"],
       tags: [],
       costForTwo: 27000,
@@ -1700,9 +1698,15 @@ const restaurantList = [
       city: "21",
       area: "Piplod",
       totalRatingsString: "Too Few Ratings",
-      cloudinaryImageId:
-        "https://th.bing.com/th/id/OIP.ayvaQhwKgxEnXkST2QOBLAHaE6?w=2048&h=1360&rs=1&pid=ImgDetMain",
-      cuisines: ["Cafe", "Fast Food", "Chinese", "Snacks"],
+      cloudinaryImageId: "fda9ad56b9d62070fec105cd93693129",
+      cuisines: [
+        "Cafe",
+        "Fast Food",
+        "Chinese",
+        "Snacks",
+        "Italian",
+        "Mexican",
+      ],
       tags: [],
       costForTwo: 15000,
       costForTwoString: "₹150 FOR TWO",

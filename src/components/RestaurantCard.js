@@ -1,3 +1,5 @@
+import { CDN_URL } from "../utils/constants";
+
 const RestaurantCard = (props) => {
   // Destructuring on the fly
   const { resData } = props;
@@ -17,7 +19,7 @@ const RestaurantCard = (props) => {
         backgroundColor: "#f0f0f0",
       }}
     >
-      <img className="res-logo" src={cloudinaryImageId} alt="res-logo" />
+      <img className="res-logo" src={CDN_URL + cloudinaryImageId} alt="res-logo" />
 
       <div className="res-des">
         <h3 className="brand-name">{name}</h3>
